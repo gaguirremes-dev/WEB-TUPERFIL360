@@ -741,6 +741,9 @@ footer { background: var(--navy); color: rgba(255,255,255,.45); }
 }
 .ft-li svg { width: 14px; height: 14px; }
 .ft-li:hover { color: rgba(255,255,255,.75); border-color: rgba(255,255,255,.2); }
+.ft-social { display: inline-flex; gap: 8px; margin-top: 20px; flex-wrap: wrap; }
+.ft-li-icon { margin-top: 0; padding: 8px; }
+.ft-li-icon svg { width: 16px; height: 16px; }
 
 .ft-h { font-size: .62rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: rgba(255,255,255,.25); margin-bottom: 16px; }
 .ft-col { display: flex; flex-direction: column; gap: 10px; }
