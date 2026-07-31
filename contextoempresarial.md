@@ -237,7 +237,7 @@ Gestión Integral Multisectorial del Capital Humano, Outsourcing de Planillas, I
 
 ## Correo Electrónico Oficial de Contacto
 
-**info@perfil360.com**
+**info@tuperfil360.com**
 
 ---
 
