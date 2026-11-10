@@ -265,7 +265,7 @@ Dominio:
 https://tuperfil360.com
 
 Correo:
-info@tuperfil360.com
+comercial@tuperfil360.com
 
 ---------------------------------------------------
 REQUISITOS UX/UI
