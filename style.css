@@ -746,6 +746,24 @@ footer { background: #fff; color: rgba(5,15,44,.55); }
 .ft-li-icon { margin-top: 0; padding: 8px; }
 .ft-li-icon svg { width: 16px; height: 16px; }
 
+/* Libro de Reclamaciones card (footer badge) */
+.ft-libro-wrap { margin-top: 24px; display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+.ft-libro {
+  display: block; width: 130px; aspect-ratio: 1 / 1; border-radius: 1rem; overflow: hidden;
+  background: #fff; line-height: 0;
+  box-shadow: 0 4px 14px rgba(5,15,44,.14), 0 0 0 1px rgba(5,15,44,.08);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.ft-libro picture { display: block; width: 100%; height: 100%; }
+.ft-libro img { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 1rem; }
+.ft-libro:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(5,15,44,.22), 0 0 0 1px rgba(5,15,44,.1); }
+.ft-libro-mail { font-size: .75rem; color: rgba(5,15,44,.5); transition: color .2s; }
+.ft-libro-mail:hover { color: var(--orange); }
+@media (prefers-reduced-motion: reduce) {
+  .ft-libro { transition: none; }
+  .ft-libro:hover { transform: none; }
+}
+
 .ft-h { font-size: .62rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--navy); margin-bottom: 16px; }
 .ft-col { display: flex; flex-direction: column; gap: 10px; }
 .ft-col a, .ft-col span { font-size: .84rem; color: var(--navy); transition: color .2s; }

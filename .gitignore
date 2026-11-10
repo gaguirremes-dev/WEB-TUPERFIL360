@@ -1,3 +1,7 @@
 .vscode/
 *.DS_Store
 Thumbs.db
+
+# Libro de Reclamaciones (credentials and records)
+config.smtp.php
+reclamaciones/
